@@ -14,7 +14,7 @@ struct SinpleStruct example = {
 
 int main() {
         printf("Number: %d\n", example.number);
-        printf("Letter: %c\n", example.letter);
+        printf("Letter: %a\n", example.letter);
 
         return 0;
 }
