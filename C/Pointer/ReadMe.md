@@ -1,12 +1,5 @@
 # はじめに
 
-# 参考文献
-[1から学ぶ、トランジスタの基本と微細化](https://www.semiconductor-industry.com/transistor/)
-
-[CPUは数百本の足を持つトランジスタのかたまり](https://jp.fujitsu.com/family/familyroom/syuppan/family/webs/serial-comp2/)
-
-# ポインタ
-
 C言語におけるポインタは、メモリ上のアドレスを格納する変数である。
 
 ポインタを使用することで、変数や配列、関数などのメモリ上の位置を直接操作することができる。
@@ -17,8 +10,19 @@ C言語におけるポインタは、メモリ上のアドレスを格納する�
 今回のようなNginxの処理では大量のリクエストを素早く処理しなければならない。
 その時にポインタ指定を行うことで、迅速な通信を実現している。
 
+# 参考文献
+[1から学ぶ、トランジスタの基本と微細化](https://www.semiconductor-industry.com/transistor/)
 
-## ポインタの基本
+[CPUは数百本の足を持つトランジスタのかたまり](https://jp.fujitsu.com/family/familyroom/syuppan/family/webs/serial-comp2/)
+
+# ポインタ 確認テスト
+
+1.ポインタを定義する方法
+2.ポインタを使って変数を表示する方法
+3.変数のメモリアドレスを表示する方法
+4.64ビットCPUで32GBのメモリのアドレス範囲
+
+# ポインタの基本
 
 ポインタを宣言するには、データ型の後にアスタリスク * を付ける。
 ```
